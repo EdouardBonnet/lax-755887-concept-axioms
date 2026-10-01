@@ -1,6 +1,6 @@
 # Concept-axiom stress test
 
-Local Lax submission **lax-755887**, based on
+Lax submission **lax-755887**, based on
 [AxiomsAreNonsense](https://github.com/Shreyas4991/AxiomsAreNonsense/tree/5b95b8b23ea8215f2011469054071fee48812e72)
 at commit `5b95b8b23ea8215f2011469054071fee48812e72`.
 No submission or registration is needed to run this experiment.
@@ -91,8 +91,8 @@ page badges and all 26 statement source statuses in Chrome, and saves a
 screenshot. It uses the adjacent website checkout's `playwright-core`; set
 `PLAYWRIGHT_MODULE`, `CHROME`, or `PREVIEW_URL` to override the local defaults.
 
-The archive preview is at <http://localhost:8123/lax-755887/>. Nothing has been pushed,
-submitted, or registered. `authors` is intentionally empty for this local test;
-the upstream examples are credited through the abstract, bibliography, and
+The local preview is at <http://localhost:8123/lax-755887/> while the server is running.
+The archive page is <https://laxarchive.org/lax-755887/>.
+The upstream examples are credited through the abstract, bibliography, and
 this document. The source examples use Lean 4.34.1; the accepted adaptations
 were checked in the active Lax environment, 4.33.0.

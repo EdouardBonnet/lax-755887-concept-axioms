@@ -34,7 +34,11 @@ while True:
     if after == proven:
         break
     proven = after
-controls = {s for s in statements if 'Controls.' in s or '.MergeControl.' in s}
+expectations = json.loads((root / 'audit/expected-status.json').read_text())
+controls = set(expectations['proven'])
+assert statements == controls | set(expectations['open'])
+assert not controls & set(expectations['open'])
+assert {c['id'] for c in out['concepts'] if not c['statements']} == set(expectations['definitions'])
 assert proven == controls, (proven - controls, controls - proven)
 assert len(proven) == 12
 assert len(statements - proven) == 14

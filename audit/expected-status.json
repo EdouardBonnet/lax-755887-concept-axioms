@@ -1,0 +1,39 @@
+{
+  "proven": [
+    "Lax755887.LeaderControls.equivariance_has_model",
+    "Lax755887.LeaderControls.no_common_model",
+    "Lax755887.LeaderControls.uniqueness_has_model",
+    "Lax755887.LimitDeciderControls.accepted_computable",
+    "Lax755887.LimitDeciderControls.halting_not_computable",
+    "Lax755887.MergeControl.no_linear_bound",
+    "Lax755887.PersistentQueueControls.actual_work",
+    "Lax755887.PersistentQueueControls.dequeue_charge",
+    "Lax755887.ReusedKeyControls.complement",
+    "Lax755887.ReusedKeyControls.rekey",
+    "Lax755887.ReusedKeyControls.xor_attack_succeeds",
+    "Lax755887.StutteringControls.terminal_cycle"
+  ],
+  "open": [
+    "Lax755887.CircularClaims.first",
+    "Lax755887.CircularClaims.second",
+    "Lax755887.LeaderClaim.contracts_conflict",
+    "Lax755887.LeaderContract.exists_protocol",
+    "Lax755887.LimitDeciderClaim.halting_is_computable",
+    "Lax755887.LimitDeciderContract.monotone_limit",
+    "Lax755887.MergeClaim.cost_axiom_is_inconsistent",
+    "Lax755887.MergeCost.linearMergeCost",
+    "Lax755887.PersistentQueueClaim.repeated_dequeue_linear",
+    "Lax755887.PersistentQueueContract.telescoping",
+    "Lax755887.ReusedKeyClaim.every_attacker_is_unbiased",
+    "Lax755887.ReusedKeyContract.parallel_composition",
+    "Lax755887.StutteringClaim.machine_terminates",
+    "Lax755887.StutteringContract.termination_transfer"
+  ],
+  "definitions": [
+    "Lax755887.LeaderElection",
+    "Lax755887.LimitDecider",
+    "Lax755887.PersistentQueue",
+    "Lax755887.ReusedKey",
+    "Lax755887.Stuttering"
+  ]
+}
