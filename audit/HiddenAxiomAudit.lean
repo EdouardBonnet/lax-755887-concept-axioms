@@ -1,4 +1,4 @@
-import Scratchpad.HiddenAxiomLibrary
+import HiddenAxiomLibrary
 
 /-!
 # Imported axiom audit bug: the misleading clean report

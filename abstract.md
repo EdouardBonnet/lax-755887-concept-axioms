@@ -3,3 +3,5 @@ Unchecked interface claims can yield false application theorems while every proo
 **The false contracts and their false conclusions are deliberate open obligations.** Their derivations should appear in the proof network without establishing the conclusions. Independent controls are proved from the background axioms alone. Additional circular derivations test that mutual support and self-reference do not establish a statement.
 
 The leader-election example is expressed as a propositional existence claim here. Its original data-valued axiom, its dependent symmetry claim, and the separate imported-axiom reporting example are exercised as validation probes outside the accepted concept package. Those probes distinguish a failure of Lean's diagnostic reporting from acceptance by Lax's independent inspector.
+
+In the local experiment, all six false application claims and the circular claims remain open, while the independent controls are grounded. The imported-dependency probes are rejected even where Lean's own diagnostic omits the axiom. These examples therefore do not demonstrate an unsound promotion of a conditional proof to a proven statement.

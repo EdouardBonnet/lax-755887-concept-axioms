@@ -12,6 +12,6 @@ namespace Lax755887.StutteringControls
 
 open Lax755887.Stuttering
 
-axiom terminal_cycle : tick (tick (0, false)) = (0, false) := rfl
+axiom terminal_cycle : tick (tick (0, false)) = (0, false)
 
 end Lax755887.StutteringControls
